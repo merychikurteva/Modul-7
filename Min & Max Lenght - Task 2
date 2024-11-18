@@ -1,0 +1,20 @@
+Task 2 - MinLenght, MaxLenght
+
+function solve ( userName, minLenght, maxLenght, URL) {
+
+    let userNameLenght = userName.lenght
+    let result = ""
+
+if ((userNameLenght >= minLenght) && (userNameLenght <= maxLenght))
+ 
+   {
+      result = window.location.href = URL;
+} else {
+      result = " Invalid Username" 
+}
+
+  return result
+
+}
+
+console.log (solve( "Martin", 2, 10, " https://pma.com"))
