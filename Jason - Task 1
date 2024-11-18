@@ -1,0 +1,44 @@
+Task 1 - JASON
+
+{
+"organisationName": " Samsung",
+    
+"releaseDate": "1938",
+    
+      "founder": {
+        "name": "Lee Byung- Chul",
+      },
+    {
+        "revenueData": [
+          {
+            "period": "2016",
+            "revenue": 201.6,
+            "unit": billion ,
+            "currency": "USD",
+          },
+          {
+            "period": "2017",
+            "revenue": 192.1,
+            "unit": billion ,
+            "currency": "USD",
+          },
+          {
+            "period": "2018",
+            "revenue": 208.5, 
+            "unit": billion ,
+            "currency": "USD", 
+             
+          }
+        ]
+      }
+      ]
+    " employess": 309630
+
+    {
+        "headquarters": {
+          "address": "Seocho District","Seoul", "Sout Korea"
+      }
+
+    }
+    " PMApartner" : false 
+  };
