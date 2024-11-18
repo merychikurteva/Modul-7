@@ -1,4 +1,4 @@
-Task 3 - App
+Task 1 - App
 
 class App {
     constructor(name, logo, welcomemessage, logoutmessage, updateURL) {
