@@ -1,0 +1,44 @@
+Task 3 - App
+
+class App {
+    constructor(name, logo, welcomemessage, logoutmessage, updateURL) {
+        this.name = name;
+        this.logo = logo;
+        this.welcomemessage = welcomemessage;
+        this.logoutmessage = logoutmessage;
+        this.updateURL = updateURL;
+    }
+
+    open() {
+        console.log(this.welcomemessage);
+    }
+
+    close() {
+        console.log(this.logoutmessage);
+    }
+
+    update() {
+        console.log(`Redirecting to update URL: ${this.updateURL}`);
+    }
+}
+
+const Facebook = new App(
+    "Facebook",
+    "logo.gif",
+    "Welcome Dude",
+    "Goodbye",
+    "https://facebook.com/update/"
+);
+
+Facebook.open();
+Facebook.close();
+Facebook.update();
+
+const Instagram = Object.assign(
+    Object.create(Facebook),
+    { name: "Instagram", updateURL: "https://instagram.com/update/" }
+);
+
+Instagram.open();
+Instagram.close();
+Instagram.update();
