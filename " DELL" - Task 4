@@ -1,0 +1,40 @@
+Task 4 Obeject " DELL"
+
+let displayInformation = {
+    browser:{
+        dimensions: {
+            width: 1920,
+            height: 1080,
+            unit: "pixels"
+    }
+} ,
+display : {
+    colorDepth: {
+        value: 12,
+        unit: " bit",
+        isTrueColor: true
+    }
+},
+monito: {
+    brand: " Dell",
+    fullModelName: "Dell UltraSharp 27 4K PremierColor",
+    
+},
+
+resolutionRequirements: {
+    minimum: {
+        width: 1200,
+        height: 480,
+    
+},
+   maximum: {
+    widht: 3840,
+    height: 2160,
+
+},
+
+minimumColorDepth: 8
+
+}
+
+},
