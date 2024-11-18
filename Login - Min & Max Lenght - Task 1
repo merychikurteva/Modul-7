@@ -1,4 +1,4 @@
-Task 2 - Login (MinLength, MaxLength)
+Task 1 - Login (MinLength, MaxLength)
 
 function checkUsername (username, minLength, maxLength, redirectToPage, redirectUrl) {
     let usernameLength = username.length,
