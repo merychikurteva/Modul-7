@@ -25,4 +25,4 @@ function checkUsername (username, minLength, maxLength, redirectToPage, redirect
 }
 }
 
-checkUsername("Mery", 5, 10, " Потребителското име е невалидно!", "https://somePage/terms");
+checkUsername("Merriam", 5, 10, " Потребителското име е валидно!", "redirectUrl");
