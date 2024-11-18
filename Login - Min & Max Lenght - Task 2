@@ -1,0 +1,28 @@
+Task 2 - Login (MinLenght, MaxLenght)
+
+function checkUsername (username, minLength, maxLength, redirectToPage, redirectUrl) {
+    let usernameLength = username.length,
+    
+    if (usernameLength < minLength) {
+
+        document.write (" Потребитерското име е невалидно! Минималната допустима дължина е ${5}."),
+        redirectToPage ( "https://somePage/terms"),
+
+    }
+    
+    if (usernameLength > maxLength) {
+
+        document.write (" Потребитерското име е невалидно! Максималната допустима дължина е ${10}."),
+        redirectToPage ( "https://somePage/terms"),
+
+    }
+
+    else {
+
+    document.write("Потребителското име е валидно!"),
+    window.location.href = redirectUrl,
+
+}
+}
+
+checkUsername("Mery", 5, 10, " Потребителското име е невалидно!", "https://somePage/terms");
